@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "web_trap_mod",
+  "version": "1.0.0",
+  "name": "Web Trap",
+  "description": "Automatically places cobwebs under enemies when you hit them - 5 second cooldown",
+  "authors": [
+    "zavi pepe"
+  ],
+  "contact": {
+    "homepage": "not available",
+    "sources": "not available"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pepe.webtrap.WebTrapMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": ">=0.100.0",
+    "minecraft": ">=1.21"
+  }
+}
